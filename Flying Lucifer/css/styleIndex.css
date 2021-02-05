@@ -1,0 +1,222 @@
+body {
+  color: white;
+  background-color: #f4f5db;
+  font-family: serif;
+}
+
+A {
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 3.25em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#top {
+  background-color: #ec0101;
+}
+
+.navbar {
+  font-size: 1.25em;
+}
+
+.top-container {
+  margin: 50px 150px auto;
+}
+
+.photoFirst {
+  margin: 10px 70px auto;
+  width: 350px;
+  height: 250px;
+}
+
+.year {
+  margin-left: 170px;
+}
+
+.btn {
+  font-size: 1.25em;
+  padding: auto 50px auto;
+  margin: 30px 20px;
+}
+
+.iconApple {
+  width: 35px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.iconPlay {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#features {
+  color: black;
+  text-align: center;
+}
+
+.middle-container-one {
+  margin: 50px 150px 100px;
+}
+
+.wrapper {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 275px;
+  height: 250px;
+  margin: auto 10px auto;
+  perspective: 1000px;
+  border: 1px solid #fff;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  background-color: #fff;
+ }
+
+.card-text {
+  padding-bottom: 12.5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(360deg);
+}
+
+.feature-fas {
+  font-size: 150px;
+  margin: 30px auto 20px;
+}
+
+#partner {
+  text-align: center;
+}
+
+.middle-container-two {
+  background-color: #ec0101;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.partner-img {
+  width: 150px;
+  height: 150px;
+}
+
+.yamaha {
+  width: 300px;
+  height: 150px;
+}
+
+.suzuki {
+  width: 300px;
+  height: 150px;
+}
+
+.beta {
+  width: 300px;
+  height: 150px;
+}
+
+.carousel-item {
+  margin: 40px auto 50px;
+}
+
+.carousel-inner {
+  margin-bottom: 65px;
+}
+
+#gallery {
+  text-align: center;
+  color: black;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+}
+
+.photo1 {
+  width: 220px;
+  height: 180px;
+}
+
+.little {
+  margin-top: 75px;
+  margin-right: 15px;
+}
+
+#details {
+  background-color: #ec0101;
+}
+
+.bottom-container {
+  margin: 50px 150px -16px;
+  padding-top: 50px;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
+}
+
+.vk {
+  width: 55px;
+  height: 45px;
+}
+
+.insta {
+  width: 50px;
+  height: 45px;
+}
+
+.mail {
+  width: 40px;
+  height: 40px;
+}
+
+.tele {
+  width: 60px;
+  height: 50px;
+}
+
+.end {
+  padding: 25px 0 20px;
+  text-align: center;
+}
