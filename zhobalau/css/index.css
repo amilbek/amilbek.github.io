@@ -1,0 +1,48 @@
+body {
+  background-color: #f3f4ed;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+}
+
+A {
+  color: red;
+}
+
+.visited {
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border-radius: 500px;
+}
+
+.top-container {
+  color: white;
+  background-color: #F00;
+  padding: 50px 0px;
+}
+
+.middle-container {
+  margin: 50px 50px;
+  text-align: center;
+}
+
+.bottom-container {
+  color: white;
+  padding: 35px 0px;
+  text-align: center;
+  background-color: #F00;
+}
+
+.zhobalau-1 {
+  width: 200px;
+  height: 200px;
+}
+
+.phone {
+  color: white;
+}
