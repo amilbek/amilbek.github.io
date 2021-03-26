@@ -30,11 +30,11 @@ A {
 }
 
 .col-sm {
-  margin-right: 75px;
+  margin-right: 100px;
 }
 
 .middle-container {
-  margin: 50px 175px;
+  margin: 20px 250px 75px;
   text-align: center;
 }
 
@@ -55,5 +55,6 @@ A {
 }
 
 .card {
+  margin-top: 35px;
   padding: 15px;
 }
