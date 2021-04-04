@@ -7,6 +7,22 @@ h1 {
   font-family: 'Dancing Script', cursive;
 }
 
+h2 {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.2em;
+}
+
 A {
   color: red;
 }
@@ -21,12 +37,13 @@ A {
   width: 150px;
   height: 75px;
   font-size: 1.5em;
+  margin: 35px 0px;
 }
 
 .top-container {
   color: white;
   background-color: #F00;
-  padding: 50px 175px;
+  padding: 50px 200px;
 }
 
 .col-sm {
@@ -49,6 +66,7 @@ A {
 .zhobalau-1 {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .phone {
